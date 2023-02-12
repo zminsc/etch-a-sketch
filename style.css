@@ -1,0 +1,11 @@
+#grid-container {
+    display: grid;
+    width: 600px;
+    height: 600px;
+}
+
+.grid-cell {
+    background-color: lightgray;
+    border-style: solid;
+    border-color: darkgray;
+}
