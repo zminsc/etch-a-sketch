@@ -1,4 +1,5 @@
 function createGrid(n) {
+    n = Math.min(100, n);
     const gridContainer = document.querySelector("#grid-container");
 
     gridContainer.style.gridTemplateColumns = `repeat(${n}, 1fr)`;
@@ -7,11 +8,10 @@ function createGrid(n) {
     for (let i = 1; i <= n; i++) {
         for (let j = 1; j <= n; j++) {
             const gridCell = document.createElement('div');
-            gridCell.classList.toggle("grid-cell");
-            gridCell.setAttribute("id", `row${i}-col${j}`);
+            gridCell.classList.add("grid-cell");
             gridContainer.appendChild(gridCell);
         }
     }
 }
 
-createGrid(4);
+createGrid(20);

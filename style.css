@@ -7,5 +7,10 @@
 .grid-cell {
     background-color: lightgray;
     border-style: solid;
-    border-color: darkgray;
+    border-color: #a9a9a9;
+}
+
+.drawn {
+    background-color: black;
+    border-color: black;
 }
