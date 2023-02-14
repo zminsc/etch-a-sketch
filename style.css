@@ -1,7 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#sketch-container {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    gap: 48px;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 72px;
+}
+
+#controls button {
+    width: 120px;
+    height: 36px;
+}
+
 #grid-container {
     display: grid;
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
 }
 
 .grid-cell {

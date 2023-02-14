@@ -4,10 +4,18 @@
         <meta charset="UTF-8">
         <title>Etch-a-Sketch</title>
         <link rel="stylesheet" href="./style.css">
-        <script src="./grid.js" defer></script>
-        <script src="./draw.js" defer></script>
+        <script src="./script.js" defer></script>
     </head>
     <body>
-        <div id="grid-container"></div>
+        <header>
+            <h1>Etch-a-Sketch</h1>
+        </header>
+        <div id="sketch-container">
+            <div id="controls">
+                <button id="grid-resize">Resize</button>
+                <button id="grid-clear">Clear</button>
+            </div>
+            <div id="grid-container"></div>
+        </div>
     </body>
 </html>
